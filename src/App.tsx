@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./App.css";
-
+import puppy from "./Images/puppy.jpg";
 function App(): JSX.Element {
     return (
         <div className="App">
@@ -12,10 +12,7 @@ function App(): JSX.Element {
             <Button onClick={() => console.log("Hello World!")}>
                 Log Hello World
             </Button>
-            <img
-                src="https://www.rd.com/wp-content/uploads/2018/02/30_Adorable-Puppy-Pictures-that-Will-Make-You-Melt_124167640_YamabikaY.jpg?fit=700,467"
-                alt="A picture of a cute puppy"
-            />
+            <img src={puppy} alt="This is a picture of a puppy" />
             <p> Unordered list</p>
             <ul>
                 <li> one </li>
