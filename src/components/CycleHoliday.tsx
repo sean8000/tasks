@@ -8,14 +8,6 @@ import Valentines_Day from "../images/Valentines_Day.png";
 
 export function CycleHoliday(): JSX.Element {
     //New Years, Valentines Day, Halloween, Thanksgiving, Christmas
-
-    const holdidayImages = {
-        New_Years,
-        Christmas,
-        Halloween,
-        Thanksgiving,
-        Valentines_Day
-    };
     type Holiday =
         | "New_Years"
         | "Valentines_Day"
