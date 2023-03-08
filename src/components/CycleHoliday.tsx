@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import New_Years from "../images/New_Year.png";
-import Christmas from "../images/Christmas.png";
-import Halloween from "../images/Halloween.png";
-import Thanksgiving from "../images/Thanksgiving.png";
-import Valentines_Day from "../images/Valentines_Day.png";
+import New_Years from "../Images/New_Year.png";
+import Christmas from "../Images/Christmas.png";
+import Halloween from "../Images/Halloween.png";
+import Thanksgiving from "../Images/Thanksgiving.png";
+import Valentines_Day from "../Images/Valentines_Day.png";
 
 export function CycleHoliday(): JSX.Element {
     //New Years, Valentines Day, Halloween, Thanksgiving, Christmas
