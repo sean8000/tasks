@@ -14,15 +14,14 @@
 }
 
 #rectangle {
-    width :200px;
-    height : 100px;
-    background-color : #FF0000;
+    width: 200px;
+    height: 100px;
+    background-color: #ff0000;
 }
-
 
 .App-header1 {
     width: 100%;
-    background-color: #FF0000;
+    background-color: #ff0000;
     min-height: 40vh;
     display: flex;
     flex-direction: column;
@@ -31,10 +30,13 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+.App-text {
+    background-color: #0000ff;
+}
 
 .App-header {
     width: 100%;
-    background-color: #0000FF;
+    background-color: #0000ff;
     min-height: 40vh;
     display: flex;
     flex-direction: column;
